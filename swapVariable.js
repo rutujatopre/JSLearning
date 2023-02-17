@@ -1,0 +1,22 @@
+console.log("----------Second----------");
+var sweety="Sweety" , cutie="Cutie", handsome;
+console.log("Value of sweety:",sweety);
+console.log("Value of cutie:",cutie);
+handsome=sweety;
+sweety=cutie;
+cutie=handsome;
+console.log("Value of sweety:",sweety);
+console.log("Value of cutie:",cutie);
+
+console.log("----------Second----------");
+var num1 =100, num2 =200, num3 =300, num4;
+console.log("Number1=",num1);
+console.log("Number2=",num2);
+console.log("Number3=",num3);
+num4=num1;
+num1=num2;
+num2=num3;
+num3=num4;
+console.log("Number1=",num1);
+console.log("Number2=",num2);
+console.log("Number3=",num3);
