@@ -1,14 +1,16 @@
-console.log("----------Second----------");
+console.log("----------First ---------");
 var sweety="Sweety" , cutie="Cutie", handsome;
-console.log("Value of sweety:",sweety);
-console.log("Value of cutie:",cutie);
-handsome=sweety;
-sweety=cutie;
-cutie=handsome;
-console.log("Value of sweety:",sweety);
-console.log("Value of cutie:",cutie);
+function swapVariable(value1,value2){
+    console.log("Before swap:",value1,value2);
+    var temp = value1;
+    value1=value2;
+    value2=temp;
+    console.log("After swap:",value1,value2);
+    return "Swpping variables successfully completed";
+}
+swapVariable(sweety,cutie);
 
-console.log("----------Second----------");
+
 var num1 =100, num2 =200, num3 =300, num4;
 console.log("Number1=",num1);
 console.log("Number2=",num2);
