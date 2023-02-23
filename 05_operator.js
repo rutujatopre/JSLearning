@@ -40,6 +40,25 @@ console.log(10 >= 20);//greater than or equal to
 
 console.log(10 <= 20);//less than or equal to
 
+var marks = 70;
+var result = marks >= 60 ? "Allow him for interview": "Dont allow";
+console.log(result);
+
+var age = 30;
+var res = age >= 21 ?"True":"Flase";
+console.log(res);
+
+var myNumber = 23;
+console.log(myNumber % 2 == 0);
+var result = myNumber % 2 ==0?"Even":"Odd";
+console.log(result); 
+
+var num1=10 , num2= 20;
+var res = num1 > num2? num1:num2;
+console.log(res);
+
+
+
 
 
 
