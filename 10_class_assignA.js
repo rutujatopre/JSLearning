@@ -53,13 +53,26 @@ let traverseObject = function(result)
      if (Object.hasOwnProperty.call(result, key))
       {
        const element = result[key];
-       //console.log(`College Name: ${collegename}, Location: ${location}, Course:${course}, Id:${id}, Naac Grade:${naacGrade} `);
        console.log('${key},{element}');
      }
    }
 };
+traverseObject(college1);
+console.log("");
+
 traverseObject(college2);
 console.log("");
+
+traverseObject(college3);
+console.log("");
+
+traverseObject(college4);
+console.log("");
+
+
+
+
+
 
 
 
