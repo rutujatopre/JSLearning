@@ -25,6 +25,11 @@ const mySet = [...new Set(array)];
 //const arrayOfUnicElement = [...mySet]// or method to seperate element
 console.log(mySet);
 console.table(mySet);
+
+
+let x=[1];
+let y = x+1;
+console.log(y);
  
 
 
